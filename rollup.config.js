@@ -1,4 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
+import { terser } from 'rollup-plugin-terser'
 
 const libraryName = 'foo-lib'
 
@@ -12,5 +13,6 @@ export default {
         typescript({
             useTsconfigDeclarationDir: true
         }),
+        terser()
     ]
 }
