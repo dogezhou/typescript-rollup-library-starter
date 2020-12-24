@@ -2,6 +2,7 @@ import typescript from "rollup-plugin-typescript2";
 import sourceMaps from 'rollup-plugin-sourcemaps'
 import { terser } from 'rollup-plugin-terser'
 import resolve from '@rollup/plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 
 const libraryName = 'foo-lib'
 
@@ -13,11 +14,12 @@ export default {
     ],
     external: [],
     plugins: [
+        resolve(),
+        commonjs(),
         typescript({
             useTsconfigDeclarationDir: true
         }),
         sourceMaps(),
         terser(),
-        resolve(),
     ]
 }
