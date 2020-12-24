@@ -1,5 +1,3 @@
 import { Sum } from './sum'
 
-export {
-    Sum
-}
+export { Sum }
