@@ -1,0 +1,15 @@
+{
+  "name": "typescript-rollup-library-starter",
+  "version": "0.0.1",
+  "description": "typescript rollup library starter",
+  "main": "index.js",
+  "author": "dogezhou",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.35.1"
+  }
+}
