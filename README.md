@@ -1,5 +1,5 @@
 # typescript-rollup-library-starter
-A simple library starter using rollup and typescript
+A simple typescript library starter using rollup
 
 ## LICENSE
 [MIT](./LICENSE)
