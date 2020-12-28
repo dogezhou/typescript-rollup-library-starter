@@ -21,6 +21,7 @@ module.exports = {
     env: {
         es6: true,
         node: true,
+        jest: true,
     },
     // 自定义配置，如果有不适合的规则，可以在此调整
     rules: {
