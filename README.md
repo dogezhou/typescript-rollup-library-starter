@@ -1,5 +1,5 @@
 # typescript-rollup-library-starter
-[ ![Vue Node.js CI](https://github.com/dogezhou/typescript-rollup-library-starter/workflows/integrate/badge.svg)](https://github.com/dogezhou/typescript-rollup-library-starter/actions?query=workflow%3Aintegrate)
+[![CI](https://github.com/dogezhou/typescript-rollup-library-starter/workflows/integrate/badge.svg)](https://github.com/dogezhou/typescript-rollup-library-starter/actions?query=workflow%3Aintegrate)
 [![codecov](https://codecov.io/gh/dogezhou/typescript-rollup-library-starter/branch/main/graph/badge.svg?token=H41UFGUSGN)](https://codecov.io/gh/dogezhou/typescript-rollup-library-starter)
 
 > A simple typescript library starter using rollup.
