@@ -1,6 +1,6 @@
 {
     "name": "typescript-rollup-library-starter",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "typescript rollup library starter",
     "main": "dist/main.umd.js",
     "module": "dist/main.esm.js",
